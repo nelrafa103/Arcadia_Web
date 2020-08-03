@@ -86,9 +86,8 @@ h1{
     font-weight: bolder;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 1rem;
-    width: 10px;
-    margin: 0%;
-    color: rgb(60%, 20%, 40%);
+    text-align: center;
+    color: rgb(70%, 20%, 40%);
     padding-top: 50px;
 }
 
@@ -97,16 +96,15 @@ h1{
 #Info{
 
  height: auto;
- width:90%;
- display: inline-block;
- margin: 40px;
+ width:100%;
+ display: flex;
  box-shadow: 5px 5px 5px 5px gray;
 }
 
 #Info .container{
     height: auto;
     width: 50%;
-   
+    order: 2;
     display: inline-block;
     text-align: justify;
     margin: 20px;
@@ -122,10 +120,6 @@ h1{
     right: 50%;
 }
 
-#Info h1{
-    position: absolute;
-    float: center;
-}
 .container p{
     margin-top:0;
     font-size: large;
@@ -174,35 +168,31 @@ h1{
 }
 .History_{
     height: auto;
-    width:90%;
-    display: inline-block;
-    margin: 40px;
+    width:100%;
+    display: flex;
     position: relative;
     box-shadow: 5px 5px 5px 5px gray;
  }
 /* Games */
 
 #Games{
-
+    display: flex;
     width: 100%;
-    height: 430px;
+    height: 100%;
+    flex-flow: row wrap;
+    text-align: center;
 }
 
 
 
-#Games h1{
-    padding-top: 30px;
-    position: relative;
-    padding-left: 40p;
-}
 
 #Games img{
     margin-top: 30px;
-    display: inline-block;
-    width: 350px;
-    height: 325px;
-    margin-left: 70px;
+    width: 400px;
+    height: 400px;
+    flex-shrink: 2;
     background:none;
+    margin-left: 25px;
 }
 
 #Games img:hover{
@@ -218,16 +208,17 @@ h1{
     color: aliceblue;
     height: auto;
     margin: 0%;
+    display: flex;
+    flex-flow: row wrap;
 }
 
 
 
 #Companies .card{
     background: linear-gradient(270deg, rgb(45, 133, 184), rgb(226, 78, 78));
-    display: inline-block;
     margin: 10px;
-    width: 25rem;
-    height: 500px;
+    flex-grow: 1;
+    flex-shrink: 1;
     text-align: justify;
     box-shadow: 8px 6px rgb(207, 199, 199);
 }
@@ -278,10 +269,6 @@ h1{
     font-style: oblique;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     letter-spacing: 2pt;
-}
-
-#Companies .first{
-    margin-left: 10px;
 }
 
 #Companies .card .card-header .h3-corto{
@@ -393,7 +380,8 @@ h1{
 
 #footer{
     background: linear-gradient(180deg, rgb(45, 133, 184), rgb(226, 78, 78));
-    height: auto;
+    height: 400px;
+    width: 100%;
     border-top: 4px outset rgb(0, 0, 0);
 }
 
