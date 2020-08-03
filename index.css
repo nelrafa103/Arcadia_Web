@@ -441,8 +441,8 @@ h1{
        order: 2;
       }
       #Header{
-        margin-top: 100%;
+        top: 90%;
         margin-bottom: 0%;
-        position: flex;
+        position: fixed;
       }
 }
