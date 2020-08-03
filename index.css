@@ -13,7 +13,7 @@ body{
     height: 100px;
     z-index: 1;
     background-color: black;
-
+    position: fixed;
 }
 
  li{ 
@@ -439,5 +439,9 @@ h1{
       #History .container{
        width: auto;
        order: 2;
+      }
+      #Header{
+        margin-top: 100%;
+        margin-bottom: 0%;
       }
 }
