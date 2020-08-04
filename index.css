@@ -448,21 +448,23 @@ h1{
       }
       .El_Nuevo{
         display: flex;
-        margin-top: 20px;
+        margin-top: 30px;
       }
       .Navigation li a  {
        margin:0%;
        flex-direction: column;
        padding-left: 2px;
-       
+       font-size: larger;
       }
       .parrafo h1{
           display: none;
       }
       .Navigation li {
         text-align: center;
+        
       }
       .parrafo h2{
         display: none;
       }
+    
 }
