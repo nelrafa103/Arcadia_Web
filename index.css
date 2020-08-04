@@ -449,6 +449,7 @@ h1{
       .El_Nuevo{
         display: flex;
         margin-top: 30px;
+        margin-left: 10px;
       }
       .Navigation li a  {
        margin:0%;
