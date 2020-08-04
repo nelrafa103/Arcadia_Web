@@ -449,15 +449,16 @@ h1{
       .El_Nuevo{
         display: flex;
       }
-      .Navigation li a {
+      .Navigation li a  {
        margin:0%;
        margin-right:0%;
        bottom: 0%;
        flex-direction: column;
-       text-align: center;
       }
       .parrafo h1{
           display: none;
       }
-      
+      .Navigation li {
+        text-align: center;
+      }
 }
