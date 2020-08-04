@@ -280,13 +280,15 @@ h1{
 
 #Blog{
     width: 100%;
-    height: 1270px;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
 }
 
 #Marketing{
-    background: url("https://res.cloudinary.com/dbchwsjig/image/upload/v1596492999/blog_marketing_nigrtu.jpg");
+    background:  linear-gradient(270deg, rgb(45, 133, 184), rgb(226, 78, 78)); ;
     background-size: 100%;
-    height: 400px;
+    height: 100%;
     border-top: 5px solid rgb(226, 78, 78);
 }
 
@@ -302,16 +304,16 @@ h1{
 
 #Marketing:hover :first-child{
     transition-duration: 2.5s;
-    height: 400px;
+    height: auto;
 }
 
 
 
 
 #Code{
-    background: url("https://res.cloudinary.com/dbchwsjig/image/upload/v1596493042/blog_programacion_gmgmq5.jpg");
+    background:  linear-gradient(270deg, rgb(45, 133, 184), rgb(226, 78, 78));
     background-size: 100%;
-    height: 400px;
+    height: 100%;
     border-top: 5px solid rgb(226, 78, 78);
 }
 
@@ -328,16 +330,17 @@ h1{
 
 #Code:hover :first-child{
     transition-duration: 2.5s;
-    height: 400px;
+    height: auto;
 }
 
 
 
 #Videogame{
-    background: url("../imagenes/blog_videojuegos.jpg");
+    background:  linear-gradient(270deg, rgb(45, 133, 184), rgb(226, 78, 78));
     background-size: 100%;
-    height: 400px;
+    height: 100%;
     border-top: 5px solid rgb(226, 78, 78);
+    
 }
 
 
@@ -352,7 +355,7 @@ h1{
 
 #Videogame:hover :first-child{
     transition-duration: 2.5s;
-    height: 400px;
+    height: auto;
 }
 
 .texto p{
@@ -361,18 +364,6 @@ h1{
     font-weight: bold;
     font-size: large;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-#Blog .titulo{
-    text-shadow: 2px 1px white;
-    text-align: center;
-    color: white;
-    font-weight: bolder;
-    font-style: italic;
-    font-size: xx-large;
-    padding-top: 20px;
-    background:linear-gradient(70deg, rgb(45, 133, 184), rgb(226, 78, 78));
-    margin-bottom: 0;
 }
 
 
@@ -467,5 +458,7 @@ h1{
       .parrafo h2{
         display: none;
       }
-    
+     button{
+    display: none;
+     }
 }
