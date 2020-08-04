@@ -437,7 +437,7 @@ h1{
         }
       
       #History .container{
-       width: auto;
+       width: 100%;
        order: 2;
       }
       #Header{
@@ -448,17 +448,21 @@ h1{
       }
       .El_Nuevo{
         display: flex;
+        margin-top: 20px;
       }
       .Navigation li a  {
        margin:0%;
-       margin-right:0%;
-       bottom: 0%;
        flex-direction: column;
+       padding-left: 2px;
+       
       }
       .parrafo h1{
           display: none;
       }
       .Navigation li {
         text-align: center;
+      }
+      .parrafo h2{
+        display: none;
       }
 }
